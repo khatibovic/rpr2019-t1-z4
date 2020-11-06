@@ -27,6 +27,18 @@ public class Artikl {
     public int getCijena() {
         return  this.Cijena;
     }
+
+    public void setNazivArtikla(String nazivArtikla) {
+        NazivArtikla = nazivArtikla;
+    }
+
+    public void setCijena(int cijena) {
+        Cijena = cijena;
+    }
+
+    public void setKod(String kod) {
+        Kod = kod;
+    }
 }
 
 
